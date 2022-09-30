@@ -97,7 +97,7 @@ The objective of the project includes,
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
-* [![HuggingFace-model][HuggingFace.com]][Huggingface-url]
+* [![HuggingFace-model][Huggingface.co]][Huggingface-url]
 * [![Docker][Docker.com]][Docker-url]
 * [![Postman][Postman.com]][Postman-url]
 * [![Threading][Threading.com]][Threading-url]
