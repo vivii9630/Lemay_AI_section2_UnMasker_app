@@ -256,8 +256,8 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Bootstrap-url]: https://getbootstrap.com
 [JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
 [JQuery-url]: https://jquery.com 
-[Flask.com] :https://img.shields.io/badge/Flask-563D7C?style=for-the-badge&logo=flask&logoColor=green
-[Flask-url] :https://flask.palletsprojects.com/en/2.2.x/
+[Flask.com]:https://img.shields.io/badge/Flask-563D7C?style=for-the-badge&logo=flask&logoColor=green
+[Flask-url]:https://flask.palletsprojects.com/en/2.2.x/
 [Docker.com]:https://img.shields.io/badge/Docker-563D7C?style=for-the-badge&logo=docker&logoColor=blue
 [Docker-url]: https://www.docker.com/
 [Huggingface.co]:https://img.shields.io/badge/HuggingFace-563D7C?style=for-the-badge&logo=huggingface&logoColor=yellow
