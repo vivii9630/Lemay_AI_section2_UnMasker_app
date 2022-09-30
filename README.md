@@ -259,7 +259,7 @@ Project Link: [https://github.com/github_username/repo_name](https://github.com/
 [Flask.com]:https://img.shields.io/badge/Flask-563D7C?style=for-the-badge&logo=flask&logoColor=green
 [Flask-url]:https://flask.palletsprojects.com/en/2.2.x/
 [Docker.com]:https://img.shields.io/badge/Docker-563D7C?style=for-the-badge&logo=docker&logoColor=blue
-[Docker-url]: https://www.docker.com/
+[Docker-url]:https://www.docker.com/
 [Huggingface.co]:https://img.shields.io/badge/HuggingFace-563D7C?style=for-the-badge&logo=huggingface&logoColor=yellow
 [Huggingface-url]:https://huggingface.co/
 [Flask-restful.com]:https://img.shields.io/badge/Flask-restful-563D7C?style=for-the-badge&logo=flask-restful&logoColor=white
