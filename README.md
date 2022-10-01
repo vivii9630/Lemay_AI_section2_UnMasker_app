@@ -90,11 +90,11 @@ Model is loaded from: https://huggingface.co/bert-base-uncased
 ### Results:
 Postman testing results:
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/postman_result.gif)
-<br>
+<br></br>
 
 Making request to the app:
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/request.gif)
-<br>
+<br> </br>
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
