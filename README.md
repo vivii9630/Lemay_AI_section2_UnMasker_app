@@ -87,15 +87,23 @@ The objective of the project includes,
 Model is loaded from: https://huggingface.co/bert-base-uncased
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Results:
+### Results and additional feature implemented for efficient production:
 #### Postman testing results:
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/postman_result.gif)
 <br></br>
 
 #### Making request to the app:
+- Received response as a generator object.
+- Created an iterator (generator object of the response).
+
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/request.gif)
 <br> </br>
+#### Multi threading with flask-python:
+- Background process to be handled by threads.
+- Thread pool/ Multiple threads.
 
+![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/threadpool1.png)
+![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/threadpool2.png)
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
