@@ -30,18 +30,6 @@
 
 <h3 align="center">Unmasker webapp, Lemay-AI, secttion2</h3>
 
-  <p align="center">
-    project_description
-    <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
-  </p>
 </div>
 
 
@@ -60,15 +48,11 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    
   </ol>
 </details>
 
@@ -77,14 +61,14 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The project is about creating a Flask API appication with JSON object. Additionally, we have included pretrained transformer of 'fill-mask' AI model from transformer pipeline for unmasking the words in messages.
+The project is about creating a Flask API appication with JSON object. Additionally, we have included pretrained transformer of 'fill-mask' AI model from transformer pipeline for unmasking the words in messages. 
 
 The objective of the project includes,
 * API interface in REST vocab about messages.
 * Automatic unmasking of possible tokens in the message.
 * Building AI model interface through API.
 
-Model is loaded from: https://huggingface.co/bert-base-uncased
+Model is loaded from: https://huggingface.co/bert-base-uncased. The reason to choose this model is that, being familiar with RNN's in predicting the next token based on maximum likehood estimation, the (t+1)th token is forseen by the RNN's as well as the (t+1)th is also from the same vocab. However, BERT models are specifically employed for predicting the masked words as they are learned bidirectionally. I took this chance to know more about BERT and it's variants including RoBERTA, DistilBERT etc.  
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Results and additional feature implemented for efficient production:
@@ -137,7 +121,12 @@ Create a python venv and install the requirements.
   pip install -r requirements.txt
   ```
 This is an example of how to list things you need to use the software and how to install them.
-* Build docker image
+
+* Docker compose at cli. Navigate to the directory where docker-compose.yaml file is located and execute the following command.
+  ```sh
+  docker-compose up.
+  ```
+* However, it recommended to build image and launch the container. Navigate to the directory where Dockerfile is located inside app and execute the following commands.
   ```sh
   docker build -t [NAME] .
   ```
@@ -145,71 +134,15 @@ This is an example of how to list things you need to use the software and how to
   ```sh
   docker run -p [host_port]:[EXPOSE_port] [NAME]
   ```
+  The docker container will start running at localserver, however, as the docker container's IP address in windows is different to that of the linux, it is recommendedto run ipconfig at windows cmd terminal to fetch, ethernet adapter vethernet (IPAddress - 192.x.x.x:yyyy).
+  
+ 
 It possible to run locally using flask, by navigative to app folder,  
   * Flask
   ```sh
   set FLASK_APP=wsgi.py
   ```
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [ ] Feature 1
-- [ ] Feature 2
-- [ ] Feature 3
-    - [ ] Nested Feature
-
-See the [open issues](https://github.com/github_username/repo_name/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+  Kindly reach out to me, incase of issues with the project.
 
 
 
@@ -225,24 +158,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email@email_client.com
+Vivek Suresh Raj - vivek.sureshraj@ucalgary.ca
 
-Project Link: [https://github.com/github_username/repo_name](https://github.com/github_username/repo_name)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
+Project Link: [(https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app)](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
