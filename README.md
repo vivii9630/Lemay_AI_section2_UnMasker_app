@@ -100,7 +100,9 @@ Model is loaded from: https://huggingface.co/bert-base-uncased
 <br> </br>
 #### Multi threading with flask-python:
 - Background process to be handled by threads.
-- Thread pool/ Multiple threads.
+- Thread pool/ Multiple threads
+- Concurrency/parallel request handling.
+- load balancing
 
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/threadpool1.png)
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/threadpool2.png)
