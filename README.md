@@ -88,13 +88,14 @@ Model is loaded from: https://huggingface.co/bert-base-uncased
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Results:
-Postman testing results:
+#### Postman testing results:
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/postman_result.gif)
 <br></br>
 
-Making request to the app:
+#### Making request to the app:
 ![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/request.gif)
 <br> </br>
+
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
