@@ -84,10 +84,17 @@ The objective of the project includes,
 * Automatic unmasking of possible tokens in the message.
 * Building AI model interface through API.
 
+Model is loaded from: https://huggingface.co/bert-base-uncased
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+### Results:
+Postman testing results:
+![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/postman_result.gif)
+<br>
 
-
+Making request to the app:
+![](https://github.com/vivii9630/Lemay_AI_section2_UnMasker_app/blob/main/images/request.gif)
+<br>
 ### Built With
 
 * [![Flask][Flask.com]][Flask-url]
@@ -111,6 +118,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Before we get started, make sure that, the following is ready. 
+- PyTorch transformer, Flask, Pip, docker
+- Postman (tesing) - Postman desktop agent.
+Create a python venv and install the requirements.
+  ```sh
+  pip install -r requirements.txt
+  ```
 This is an example of how to list things you need to use the software and how to install them.
 * Build docker image
   ```sh
