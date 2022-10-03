@@ -28,7 +28,7 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Unmasker webapp, Lemay-AI, secttion2</h3>
+<h3 align="center">Unmasker webapp, Lemay-AI, section2</h3>
 
 </div>
 
