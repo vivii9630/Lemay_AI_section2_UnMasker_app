@@ -128,7 +128,7 @@ This is an example of how to list things you need to use the software and how to
   ```
   To start the app from container, 
    ```sh
-  docker-run [CONTAINER_NAME].
+  docker-run [CONTAINER_NAME]
   ```
 * However, it recommended to build image and launch the container. Navigate to the directory where Dockerfile is located inside app and execute the following commands.
   ```sh
